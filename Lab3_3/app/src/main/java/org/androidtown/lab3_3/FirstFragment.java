@@ -7,10 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by YoonJin on 2018-04-26.
- */
-
+//Make first fragment for button 'tab2'
 public class FirstFragment extends Fragment {
 
     @Nullable

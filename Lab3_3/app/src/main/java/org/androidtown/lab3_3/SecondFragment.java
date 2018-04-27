@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-
+//Make second fragment for button 'tab2'
 public class SecondFragment extends Fragment {
     @Nullable
     @Override

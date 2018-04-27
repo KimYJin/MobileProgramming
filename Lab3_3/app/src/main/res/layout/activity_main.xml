@@ -24,17 +24,8 @@
     </LinearLayout>
 
     <FrameLayout
-        android:id="@+id/frame_for_fragment"
+        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <fragment
-            android:id="@+id/firstFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:name="org.androidtown.lab3_3.FirstFragment"/>
-
-    </FrameLayout>
-
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
