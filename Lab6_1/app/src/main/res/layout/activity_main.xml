@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:background="#55dddddd"
+        android:padding="10dp"
+        android:gravity="top"
+        android:hint="Enter some lines of data here..."
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnWriteSDFile"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="1. Write SD File" />
+    <Button
+        android:id="@+id/btnClearScreen"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="2. Clear Screen" />
+    <Button
+        android:id="@+id/btnReadSDFile"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="3. Read SD File" />
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="4. Finish App" />
+</LinearLayout>

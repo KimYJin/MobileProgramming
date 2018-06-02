@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shared preference example"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:layout_span="3"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp">
+            <TextView
+                android:text="학번"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:hint="..." />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp">
+            <TextView
+                android:text="이름"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="..."
+                android:layout_span="2"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/button1"
+                android:text="불러오기"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/button2"
+                android:text="저장하기"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/button3"
+                android:text="초기화"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
